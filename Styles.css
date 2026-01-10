@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  background: #0d0d0d;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo span { color: #f04d23; }
+
+.nav-btn, button {
+  background: #f04d23;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.85)), url('attached_assets/generated_images/dark_dramatic_boxing_ring.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.dark { background: #141414; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.card {
+  background: #1c1c1c;
+  padding: 20px;
+}
+
+.highlight {
+  border: 1px solid #f04d23;
+}
+
+.example {
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+.mistake { color: #f04d23; }
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+}
+
+/* CHAT */
+.chat-container {
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+.chat-box {
+  background: #1a1a1a;
+  padding: 20px;
+  height: 400px;
+  overflow-y: auto;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+}
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  list-style-type: none;
+  margin: 0 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Chatbox */
+.chatbox-container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chatbox-header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.chatbox-body {
+  padding: 20px;
+  height: 300px;
+  overflow-y: auto;
+  background-color: #f4f4f4;
+}
+
+.chatbox-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #333;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.chatbox-footer input {
+  width: 80%;
+  padding: 5px;
+}
+
+.chatbox-footer button {
+  padding: 5px 10px;
+  background-color: #00bcd4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Boxing Ring */
+.boxing-ring {
+  width: 100%;
+  text-align: center;
+}
+
+.boxing-ring img {
+  width: 70%;
+  margin-top: 30px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
