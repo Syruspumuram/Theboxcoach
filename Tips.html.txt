@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tips - My Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Chatbot</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="inquiries.html">Inquiries</a></li>
+        <li><a href="tips.html">Tips</a></li>
+        <li><a href="payment.html">Payment</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>How to Use the Chatbot</h2>
+    <ul>
+      <li>Start typing your questions in the chatbox on the homepage.</li>
+      <li>Be specific to get more accurate answers.</li>
+      <li>If you're unsure, just type "Help" for guidance.</li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>© 2026 Chatbot Company</p>
+  </footer>
+</body>
+</html>
+

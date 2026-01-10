@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  background: #0d0d0d;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo span { color: #f04d23; }
+
+.nav-btn, button {
+  background: #f04d23;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.85)), url('attached_assets/generated_images/dark_dramatic_boxing_ring.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.dark { background: #141414; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.card {
+  background: #1c1c1c;
+  padding: 20px;
+}
+
+.highlight {
+  border: 1px solid #f04d23;
+}
+
+.example {
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+.mistake { color: #f04d23; }
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+}
+
+/* CHAT */
+.chat-container {
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+.chat-box {
+  background: #1a1a1a;
+  padding: 20px;
+  height: 400px;
+  overflow-y: auto;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+}
